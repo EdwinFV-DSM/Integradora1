@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+:root{
+    /*
+    
+    Colores y efector predeterminados desde la base
+
+    */
+
+    --color-base: black;
+    --color-base-hover: rgb(1, 85, 163);
+}
+
+.inicio{
+    padding: 20px;
+}
+
+.inicio h1{
+    text-align: center;
+}
+
+.navbar-brand {
+    height: 30px !important;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.user ul{
+    list-style: none;
+}
+
+.user a{
+    text-align: center;
+    color: var(--color-base);
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+.user a:hover{
+    text-align: center;
+    color: var(--color-base-hover);
+    text-decoration: none;
+    transition: all 0.5s ease 0s;
+}
+
+.user i{
+    padding-right: 8px;
+}
+
+.columns{
+    display: flex;
+}
+
+.columns .precio{
+    text-align: right;
+    padding-right: 20px;
+}
+
+@media (min-width: 576px){
+    .card-group>.card {
+        flex: 1 0 0%;
+        margin-bottom: 0;
+        padding-right: 20px;
+        border-radius: 0px;
+        border: 0px;
+    }
+}
+
+.contenido_inicial h1{
+    text-align: center;
+    color: var(--color-base-hover);
+}
